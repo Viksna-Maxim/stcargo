@@ -1,0 +1,219 @@
+/* FOOTER STYLE */
+.footer {
+    background-color: #212121;
+}
+
+.footer>div {
+    background: url(../img/background_world_map_footer.png) no-repeat;
+    width: 100%;
+}
+
+.footer > div > div:nth-child(1) > div:nth-child(2) {
+    padding-left: 13%;
+}
+
+.footer-img {
+    height: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-img>img {
+    width: 17rem;
+}
+
+.footer-text>div {
+    display: table;
+}
+
+.footer-text-2 {
+    background: #141414;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text-2>span {
+    /* padding-left: 18vh; */
+    font-size: 1em;
+}
+
+.footer-text>div>a:hover {
+    color: grey;
+}
+
+/* FORM STYLE */
+.forma>div:nth-child(1)>input {
+    width: 89%;
+    background: inherit;
+    border: 0;
+    border-bottom: 3px solid white;
+    margin-bottom: 1.5em;
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.forma>div:nth-child(1)>input::placeholder {
+    text-align: center;
+    font-family: 'Gotham Pro';
+    font-weight: normal;
+    font-size: 1.5em;
+    font-style: normal;
+}
+
+.forma>div:nth-child(2)>button {
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color .8s, border .8s;
+}
+
+.forma>div:nth-child(2)>button:hover {
+    animation: anim_form_btn_in .8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    background-color: inherit;
+    border: 2px solid white;
+}
+
+@keyframes anim_form_btn_in {
+    0% {
+        -moz-transform: rotate(0deg);
+        /* Для Firefox */
+        -ms-transform: rotate(0deg);
+        /* Для IE */
+        -webkit-transform: rotate(0deg);
+        /* Для Safari, Chrome, iOS */
+        -o-transform: rotate(0deg);
+        /* Для Opera */
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -moz-transform: rotate(360deg);
+        /* Для Firefox */
+        -ms-transform: rotate(360deg);
+        /* Для IE */
+        -webkit-transform: rotate(360deg);
+        /* Для Safari, Chrome, iOS */
+        -o-transform: rotate(360deg);
+        /* Для Opera */
+        transform: rotate(360deg);
+    }
+}
+
+.forma>div:nth-child(2)>button:not(:hover) {
+    animation: anim_form_btn_out .8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+@keyframes anim_form_btn_out {
+    0% {
+        -moz-transform: rotate(360deg);
+        /* Для Firefox */
+        -ms-transform: rotate(360deg);
+        /* Для IE */
+        -webkit-transform: rotate(360deg);
+        /* Для Safari, Chrome, iOS */
+        -o-transform: rotate(360deg);
+        /* Для Opera */
+        transform: rotate(360deg);
+    }
+
+    100% {
+        -moz-transform: rotate(0deg);
+        /* Для Firefox */
+        -ms-transform: rotate(0deg);
+        /* Для IE */
+        -webkit-transform: rotate(0deg);
+        /* Для Safari, Chrome, iOS */
+        -o-transform: rotate(0deg);
+        /* Для Opera */
+        transform: rotate(0deg);
+    }
+}
+
+.forma>div:nth-child(2)>button>i {
+    font-size: 2.2em;
+    transition: color .8s;
+}
+
+.forma>div:nth-child(2)>button:hover>i {
+    color: white;
+}
+
+#change_forma {
+    display: none;
+    opacity: 0;
+}
+
+#change_forma>h3 {
+    font-size: 3em;
+}
+
+.animate_close_form {
+    animation: animate-close-form .6s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+@keyframes animate-close-form {
+    0% {
+        width: 70%;
+    }
+
+    100% {
+        width: 0%;
+    }
+}
+
+.animate_success_text_form {
+    animation: animate-success-text-form .6s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+@keyframes animate-success-text-form {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.footer-mobile {
+    display: none;
+}
+
+.first-footer-mobile {
+    display: block;
+}
+
+.second-footer-mobile {
+    display: none;
+}
+
+.footer > div > div:nth-child(1) {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.footer-text-2 > span > a {
+    color: white;
+    cursor: pointer;
+}
+
+.footer-text-2 > span > a:hover {
+    border-bottom: 2px solid white;
+}
+
+.footer-text-2 > span:hover > a {
+    border-bottom: 2px solid white;
+}

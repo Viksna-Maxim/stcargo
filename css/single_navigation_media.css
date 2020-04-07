@@ -1,0 +1,184 @@
+/* MEDIA QUERY STYLES */
+
+/* xs - устройства (до 575px) */
+/* CSS для ширины, которая меньше 575px (включительно) */
+
+/* sm-устройства (больше или равно 576px) */
+@media screen and (min-width: 324px) and (max-width: 991px){
+    /* CSS для: 576px <= ширины <= 767px */
+
+    html {
+        font-size: .65em;
+    }
+
+    .navigation-main-noscroll {
+        display: none;
+    }
+
+    .navigation {
+        display: none !important;
+    }
+
+    .navigation-mobile {
+        display: block;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 6em;
+        z-index: 150;
+        transition: height 1s ease;
+    }
+
+    .navigation-mobile > div:nth-child(1) {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: black;
+        z-index: 1;
+        opacity: 0.7;
+    }
+
+    .navigation-mobile > div:nth-child(2) {
+        position: absolute;
+        height: 9vh;
+        z-index: 11;
+        width: 100%;
+    }
+
+    .navigation-mobile > div:nth-child(2) > img {
+        position: absolute;
+        right: 36%;
+        width: 26%;
+        object-fit: contain;
+        z-index: 2;
+        max-height: 77%;
+        top: .6vh;
+    }
+
+    .navigation-mobile > div:nth-child(2) > a {
+        position: absolute;
+        top: 41%;
+        color: white;
+        right: 30%;
+        font-size: 1.6em;
+    }
+
+    #btn-nav-close {
+        opacity: 0;
+    }
+
+    #btn-nav-open, #btn-nav-close {
+        color: white;
+        font-size: 5em;
+        height: 100%;
+        margin-left: 5%;
+        display: table;
+        line-height: 1.2em;
+        cursor: pointer;
+        transition: opacity 0.2s ease;
+    }
+
+    #mobile-nav-fullscreen {
+        display: none;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 5;
+        top: 0;
+        opacity: 0;
+        transition: opacity 1s;
+        opacity: 1;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #mobile-nav-fullscreen > a {
+        padding-top: 4%;
+        padding-bottom: 4%;
+        font-size: 1.7em;
+    }
+
+    #mobile-nav-fullscreen > a:hover {
+        color: white;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+
+}
+
+@media screen and (min-width: 501px) and (max-width: 991px){
+    #mobile-nav-fullscreen > a {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        font-size: 1.7em;
+    }
+
+    .navigation-mobile > div:nth-child(2) > a {
+        position: absolute;
+        top: 81%;
+        color: white;
+        right: 39%;
+        font-size: 1.6em;
+    }
+
+    #mobile-nav-fullscreen > a {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        font-size: 1.2em;
+    }
+
+}
+
+/* md-устройства (больше или равно 768px) */
+/* @media screen and (min-width: 701px) and (max-width: 991px){
+CSS для: 768px <= ширины <= 991px
+
+.navigation {
+display: none;
+}
+
+.navigation-mobile {
+display: none;
+}
+
+.navigation>div:nth-child(2)>div:nth-child(2)>img {
+width: 11em;
+}
+
+.navig-item {
+font-size: 11px;
+}
+
+
+} */
+
+/* lg-устройства (больше или равно 992px) */
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .navigation-mobile {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+    }
+
+    .navig-item {
+        font-size: 14px;
+    }
+}
+
+/* xl-устройства (больше или равно 1200px) */
+@media (min-width: 1200px) {
+    /* CSS для: ширины >= 1200px */
+    .navigation-mobile {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+    }
+}

@@ -1,0 +1,442 @@
+/* MEDIA QUERY STYLES */
+
+/* xs - устройства (до 575px) */
+/* CSS для ширины, которая меньше 575px (включительно) */
+@media screen and (max-width: 575px) {
+    /* CSS для: ширины <= 576px*/
+}
+
+/* sm-устройства (больше или равно 576px) */
+@media screen and (min-width: 324px) and (max-width:500px){
+    /* CSS для: 576px <= ширины <= 767px */
+
+    #collapseMy1 > div > p {
+        width: 95%;
+    }
+
+    #popup-p {
+        width: 95%;
+    }
+
+    html {
+        font-size: .65em;
+    }
+
+    .digit > div:nth-child(1) > img {
+        position: absolute;
+        left: calc(2vw - 296px);
+        height: 101% !important;
+    }
+
+    .digit {
+        height: 60% !important;
+    }
+
+    .digit > div:nth-child(1) {
+        height: 100% !important;
+        width: 100%;
+        padding: 0;
+    }
+
+    .digit > div:nth-child(2) > h1 {
+
+        text-align: right;
+    }
+
+    .slider_block > div > div:nth-child(1) > h2 {
+        /* font-size: 7vw; */
+        text-align: center;
+    }
+
+    #slider_change_text_1,
+    #slider_change_text_2,
+    #slider_change_text_3 {
+        text-align: center;
+        padding-top: 15%;
+    }
+
+    #iteration_digit_1,
+    #iteration_digit_2,
+    #iteration_digit_3 {
+        font-size: 24vw;
+    }
+
+    .download-block > div:nth-child(1) > h2 {
+        /* font-size: 7vw; */
+        text-align: center;
+    }
+
+    .download-block > div:nth-child(1) > p {
+        /* font-size: 4vw; */
+        /* width: 90% !important; */
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .download-block > div:nth-child(1) > .hr_blue {
+        background: #03a9f4;
+        height: 3px;
+        width: 13%;
+        margin-top: 3%;
+        margin-bottom: 4%;
+    }
+
+    .download-block > div:nth-child(2) {
+        height: 60rem;
+    }
+
+    .word-block {
+        margin-right: 1rem;
+        margin-left: 1rem;
+        margin-bottom: 15%;
+    }
+
+    .adobe-block {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .word-block, .adobe-block {
+        width: 18rem;
+        height: 30rem;
+    }
+
+    .word-block > p, .adobe-block > p {
+        /* font-size: 4vw; */
+    }
+
+    .word-block > div > button, .adobe-block > div > button {
+        display: none;
+    }
+
+    .word-btn-mobile, .pdf-btn-mobile {
+        display: block;
+        font-family: 'Gotham Pro';
+        width: 100%;
+        border: 0;
+        color: white;
+        background: #03a9f4;
+        height: 7%;
+        margin-top: 6em;
+        transition: color .5s, border .5s, background .5s;
+        cursor: pointer;
+    }
+
+    .word-btn-mobile:hover, .pdf-btn-mobile:hover {
+        color: #03a9f4;
+        background: white;
+        border: 2px solid #03a9f4;
+    }
+
+    .certification-block > div:nth-child(1) {
+        width: 100%;
+    }
+
+    .certification-block-child-1 > h2 {
+        font-size: 7vw;
+        padding-top: 7vh;
+    }
+
+    .certification-block-child-1 > p {
+        line-height: 1.5rem;
+        width: 90%;
+        font-size: 4vw;
+        text-align: center;
+        padding-bottom: 7vh;
+    }
+
+    .certification-block > div:nth-child(2) {
+        width: 100%;
+    }
+
+    #certification_slider {
+        width: 100%;
+        height: 60%;
+    }
+
+    .download-block {
+        padding-bottom: 16% !important;
+    }
+
+    .bg-black-grey > div:nth-child(1) > h2 {
+        padding-top: 7vh;
+    }
+
+    .download-block > div:nth-child(1) > h2 {
+        padding-top: 7vh;
+    }
+
+    .download-block > div:nth-child(1) > p {
+        padding-bottom: 7vh;
+    }
+
+    #certification_slider > ol {
+        bottom: -7em !important;
+    }
+
+    #carouselExampleControls5 {
+        display: none;
+    }
+
+    #carouselExampleControls6 {
+        display: block;
+        height: 33vh;
+    }
+
+    #carouselExampleControls6 .carousel-item {
+        background: #03a9f4 !important;
+    }
+
+    #carouselExampleControls6  .clients-logo-btns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .clients-block > div:nth-child(1) {
+        padding-top: 7vh;
+        padding-left: 15px;
+        padding-bottom: 7vh;
+    }
+
+    .clients-block > div:nth-child(1) > h2 {
+        /* font-size: 7vw; */
+    }
+
+    .clients-block > div:nth-child(1) > hr {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    .clients-block > div:nth-child(1) > p {
+        width: 90% !important;
+    }
+
+    .slider_block {
+        position: relative;
+    }
+
+    #swipe-finger-overlay {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 4;
+        top: 0;
+    }
+
+    #swipe-finger-overlay > div:nth-child(1) {
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        height: 100%;
+        background: black;
+        opacity: 0.5;
+    }
+
+    #swipe-finger-block {
+        position: absolute;
+        z-index: 3;
+        width: 100%;
+        height: 100%;
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #swipe-finger-block > div:nth-child(1) {
+        font-size: 2em;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-bottom: 6em;
+        padding-top: 4em;
+        text-align: center;
+    }
+
+    #swipe-finger-block > div:nth-child(2) {
+        position: relative;
+    }
+
+    #swipe-finger-img {
+        position: absolute;
+        right: 0;
+        width: 40%;
+    }
+
+    .class-swipe-animation {
+        animation: swipe-animation 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+    #close-help {
+        position: absolute;
+        z-index: 10;
+        color: white;
+        top: 0em;
+        right: 0em;
+        font-size: 3em;
+        cursor: pointer;
+    }
+
+    @-webkit-keyframes swipe-animation {
+        from {
+            right: 0;
+        }
+        to {
+            right: 22em;
+        }
+    }
+    @-o-keyframes swipe-animation {
+        from {
+            right: 0;
+        }
+        to {
+            right: 22em;
+        }
+    }
+    @-moz-keyframes swipe-animation {
+        from {
+            right: 0;
+        }
+        to {
+            right: 22em;
+        }
+    }
+    @keyframes swipe-animation {
+        from {
+            right: 0;
+        }
+        to {
+            right: 22em;
+        }
+    }
+}
+
+/* md-устройства (больше или равно 768px) */
+@media screen and (min-width: 501px) and (max-width:991px){
+    /* CSS для: 768px <= ширины <= 991px */
+
+    #collapseMy1 > div > p {
+        width: 95%;
+    }
+
+    #popup-p {
+        width: 95%;
+    }
+
+    html {
+        font-size: .6em;
+    }
+
+    .digit > div:nth-child(1) > img {
+        left: calc(-6vw - 134px);
+    }
+
+    .digit > div:nth-child(2) > h2 {
+
+    }
+
+    .slider_block > div > div:nth-child(1) > h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .download-block > div:nth-child(1) > h2 {
+        text-align: center;
+    }
+
+    #slider_change_text_1,
+    #slider_change_text_2,
+    #slider_change_text_3 {
+        font-size: 16px;
+    }
+
+    .slider_block > div > div:nth-child(1) > .hr_blue {
+        margin-top: 1% !important;
+    }
+
+    .word-block > h3, .word-block > h3 > span,
+    .adobe-block > h3, .adobe-block > h3 > span {
+
+    }
+
+    .certification-block > div:nth-child(1),
+    .certification-block > div:nth-child(2) {
+        width: 50%;
+    }
+
+    .certification-block > p {
+        width: 90%;
+    }
+
+    #certification_slider {
+        width: 84%;
+        height: 100%;
+    }
+
+    .certification-block-child-2 {
+        height: 37vh;
+    }
+
+    .clients-block > div:nth-child(1) > h2 {
+        font-size: 50px;
+    }
+
+
+    .clients-logo-btns {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+    .blog__company-h-3 > p {
+        line-height: 1.7em !important;
+        font-size: 12px !important;
+    }
+}
+
+/* lg-устройства (больше или равно 992px) */
+@media screen and (min-width: 992px) and (max-width:1199px){
+    /* CSS для: 992px <= ширины <= 1119px */
+
+    html {
+        font-size: .7em;
+    }
+
+    .digit > div:nth-child(1) > img {
+        left: calc(10vw - 296px);
+    }
+
+    .slider_block > div:nth-child(1) > div:nth-child(1) > h2 {
+        font-size: 42px;
+    }
+
+    #slider_change_text_1,
+    #slider_change_text_2,
+    #slider_change_text_3 {
+        font-size: 20px;
+    }
+
+    .download-block > div:nth-child(1) > h2,
+    .certification-block > div:nth-child(1) > h2,
+    .clients-block > div:nth-child(1) > h2 {
+        /* font-size: 50px; */
+    }
+
+    .certification-block > div:nth-child(1),
+    .certification-block > div:nth-child(2) {
+        width: 50%;
+    }
+
+    ol > li {
+        width: 1.5em !important;
+        height: 0.3em !important;
+        transition: width .3s;
+        background: grey !important;
+    }
+}
+
+/* xl-устройства (больше или равно 1200px) */
+@media screen and (min-width: 1200px) {
+    /* CSS для: ширины >= 1200px */
+}

@@ -1,0 +1,73 @@
+/* CARGO CSS STYLES */
+
+.contacts > div:nth-child(1) > img {
+    position: absolute;
+    left: calc(-7vw - 296px);
+    height: 100vh;
+}
+
+.contacts > div:nth-child(2) {
+    /* position: absolute; */
+    /* right: 14%; */
+    height: calc(33vw + 20%);
+}
+
+.maps > div:nth-child(1) > div:nth-child(1) {
+    padding-top: 9em;
+}
+
+.maps-info {
+    padding-left: 2em;
+    padding-top: 2em;
+    font-size: 1em;;
+}
+
+.maps-info > div:nth-child(1) {
+    padding-bottom: 2em;
+}
+
+.maps-info > div:nth-child(2) {
+    padding-bottom: 2em;
+}
+
+.maps-info > div:nth-child(1) > a:hover,
+.maps-info > div:nth-child(2) > a:hover,
+.maps-info > div:nth-child(3) > a:hover {
+    color: grey;
+}
+
+.maps > div:nth-child(1) > div:nth-child(1) > h2 {
+    font-size: 3em;
+}
+
+.map {
+    height: 100vh;
+}
+
+.contacts > div:nth-child(1) {
+    height: 100%;
+}
+
+.contacts {
+    height: 100%;
+}
+
+.maps > div:nth-child(1) {
+    height: 100%;
+}
+
+.contacts > div:nth-child(2) {
+    width: 50%;
+}
+
+.contacts > div:nth-child(2) > h1 {
+    font-size: 3em;
+}
+
+.maps > div:nth-child(1) > div:nth-child(2) {
+    font-size: 3em;
+}
+
+.maps > div:nth-child(2) {
+    height: 100%;
+}

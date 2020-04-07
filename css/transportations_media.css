@@ -1,0 +1,918 @@
+/* MEDIA QUERY STYLES */
+/* xs - устройства (до 575px) */
+/* CSS для ширины, которая меньше 575px (включительно) */
+@media screen and (max-width: 575px) {
+    /* CSS для: ширины <= 576px*/
+}
+
+/* sm-устройства (больше или равно 576px) */
+@media screen and (min-width: 324px) and (max-width:500px) {
+
+    /* CSS для: 576px <= ширины <= 767px */
+
+    #open-video {
+        width: 7em;
+        height: 3.5em;
+        font-size: 1em;
+    }
+
+    .arrow-left-car, .arrow-right-car {
+        font-size: 16vw !important;
+    }
+
+    #prev-btn-1 > i, #next-btn-1 > i {
+        font-size: 16vw !important;
+    }
+
+    html {
+        font-size: .65em;
+    }
+
+    #carouselExampleIndicators3 > .carousel-control-prev > i,
+    #carouselExampleIndicators3 > .carousel-control-next > i {
+        top: 50% !important;
+        transform: translateY(-50%);
+    }
+
+    .logistic-company>div:nth-child(2) > div {
+        display: none;
+    }
+
+    .logistic-company>div:nth-child(2) {
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        height: 30%;
+        right: 0;
+        bottom: 0;
+    }
+
+    .logistic-company>div:nth-child(1)>div:nth-child(1) {
+        height: 100%;
+    }
+
+    .main-text {
+        position: absolute;
+        z-index: 2;
+        top: 26%;
+        left: 16%;
+    }
+
+    .main-text>div>div>p:nth-child(2) {
+        font-size: 2.8vw;
+        padding-left: 1rem;
+    }
+
+    .logistic-company {
+        height: 100%;
+    }
+
+    #cargoVideo {
+        height: 100% !important;
+        width: 140% !important;
+    }
+
+    .trans-header-bg {
+        background: url(../img/trans-header-bg.png) no-repeat;
+        background-size: 190%;
+        background-position: center;
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trans-header-bg {
+        height: 121%;
+        position: relative;
+    }
+
+    .trans-header-bg>h2 {
+        font-size: 7vw;
+    }
+
+    #forma_btn_2 {
+        width: 100%;
+    }
+
+    #myCarousel>h2 {
+        font-size: 7vw;
+    }
+
+    /* #open-video {
+    width: 20vw;
+    height: 5vh;
+    font-size: 4vw;
+    } */
+
+    #main-forma {
+        background-color: white;
+        background-image: url(../img/background_world_map.png);
+        background-size: 133%;
+        position: static;
+        width: 100%;
+        padding-top: 5%;
+        padding-bottom: 0%;
+    }
+
+    #main-forma>div:nth-child(2) {
+        height: 20%;
+    }
+
+    #main-forma>div:nth-child(2)>div:nth-child(1) {
+        height: 100%;
+    }
+
+    #main-forma-btn {
+        background: #4d4d4d;
+        border: 2px solid transparent;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        margin-top: 5em;
+        margin-left: 10vw;
+        transition: transform 1s, border 1s, background 1s;
+    }
+
+    #main-forma-btn>i {
+        font-size: 2em;
+    }
+
+    #main-forma>div:nth-child(2)>div:nth-child(1)>input:nth-child(1) {
+        font-size: 1.5em;
+        height: 2em;
+    }
+
+    #main-forma>div:nth-child(2)>div:nth-child(1)>input:nth-child(2) {
+        font-size: 1.5em;
+        height: 2em;
+    }
+
+    #main-forma>div:nth-child(2)>div:nth-child(1) {
+        margin-left: 15%;
+    }
+
+    .navigation-bar-slider {
+        height: 10%;
+        width: 100%;
+        position: static;
+        bottom: 0;
+        z-index: 4;
+    }
+
+    .navigation-bar-slider > div:nth-child(1) {
+        height: 10%;
+    }
+
+    #nav-btns {
+        height: 10%;
+    }
+
+    .navigation-bar-slider>div:nth-child(2) {
+        position: absolute;
+        z-index: 2;
+        font-size: 3.5vw;
+        display: flex;
+        text-align: center;
+    }
+
+    .mobile-br {
+        display: block;
+    }
+
+    #inder_line_2 {
+        position: absolute;
+        height: .2em !important;
+        background: white !important;
+        bottom: 0em;
+        width: 61.33px;
+        left: 0;
+        transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+    #_1_, #_2_, #_3_, #_4_ {
+        flex: 1;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    #_1_, #_2_, #_3_, #_4_ {
+        font-size: 1.1em;
+    }
+
+    .slider-mini-bloks>div:nth-child(1) {
+        width: 34%;
+        height: 100%;
+        background: grey;
+    }
+
+    .first-slide > div:nth-child(1) {
+        margin-top: 5em;
+        margin-bottom: 2.5em;
+    }
+
+    .first-slide > div:nth-child(2) {
+        margin-bottom: 5em;
+        margin-top: 2.5em;
+    }
+
+    .slider-mini-bloks {
+        width: 100%;
+        height: 9em;
+    }
+
+    .slider-mini-bloks:nth-child(2) {
+        margin-left: 0;
+        margin-top: 2.5em;
+    }
+
+    .slide:nth-child(1) > div:nth-child(1) > h2 {
+        margin-top: 6rem;
+    }
+
+    .slider-mini-bloks>div:nth-child(2)>h4 {
+        font-size: calc(1vw + 9px);
+    }
+
+    .slider-mini-bloks>div:nth-child(2)>p {
+        /* font-size: calc(1vw + 6px); */
+    }
+
+    .carousel-item>div:nth-child(2) {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .carousel-item>div:nth-child(2)>div {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .bg-lightgrey>div:nth-child(1)>h2 {
+        font-size: 7vw;
+        padding-top: 7vh;
+    }
+
+    .bg-lightgrey>div:nth-child(1)>p {
+        /* font-size: 4vw; */
+        margin: 0 auto;
+        width: 90%;
+        padding-bottom: 7vh;
+    }
+
+    #carouselExampleIndicators {
+        display: none;
+    }
+
+    #carouselExampleIndicators4 {
+        display: block;
+        height: 51%;
+        width: 100%;
+    }
+
+    #carouselExampleIndicators4>ol>li {
+        width: 3em !important;
+        margin-left: .4em;
+        margin-right: .4em;
+        height: 0.4em !important;
+        background: lightgrey !important;
+        transition: width .3s;
+    }
+
+    #carouselExampleIndicators4>ol>.active {
+        background: #03a9f4 !important;
+        width: 3.5em !important;
+    }
+
+    #carouselExampleIndicators4 .carousel-item > div {
+        justify-content: space-around;
+    }
+
+    .block-1 {
+        height: 25em;
+        width: 46%;
+        margin-left: 1%;
+        margin-right: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bg-lightgrey {
+        height: 100%;
+    }
+
+    .block-1>h3 {
+        font-size: calc(1vw + 9px);
+    }
+
+    .block-1>p {
+        font-size: calc(1vw + 6px);
+    }
+
+    .bg-lightgrey>div:nth-child(1) {
+        margin-bottom: 2rem;
+    }
+
+    .calculation>div:nth-child(1)>h2 {
+        font-size: 7vw;
+    }
+
+    .calculation>div:nth-child(1) {
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 56%;
+    }
+
+    .calculation>div:nth-child(1)>p {
+        padding-bottom: 7vh;
+        width: 90%;
+        text-align: center;
+    }
+
+    .calculation>div:nth-child(1)>hr {
+        margin: 0 auto;
+        margin-bottom: 8%;
+        margin-top: 4%;
+    }
+
+    .calculation>div:nth-child(1)>hr {
+        text-align: center;
+    }
+
+    .calculation>div:nth-child(2)>div:nth-child(1) {
+        position: absolute;
+        z-index: 2;
+        height: 38%;
+    }
+
+    .calculation>div:nth-child(2)>div:nth-child(2) {
+        position: absolute;
+        z-index: 1;
+        padding: 0;
+    }
+
+    .calculation>div:nth-child(2) {
+        height: 24%;
+        padding: 0;
+    }
+
+    .calculation {
+        padding: 0 !important;
+    }
+
+    .calculation > div:nth-child(1) > div:nth-child(1) {
+        width: 100%;
+        position: absolute;
+        z-index: 2;
+    }
+
+    .calculation > div:nth-child(1) > div:nth-child(2) {
+        width: 100%;
+        height: 100%;
+    }
+
+    .calculation > div:nth-child(1) > div:nth-child(1) > h2 {
+        text-align: center;
+    }
+
+    .calculation > div:nth-child(1) > div:nth-child(1) > hr {
+        margin: 0 auto;
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
+
+    .calculation > div:nth-child(1) > div:nth-child(1) > p {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .colculation-picture-block>img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .calculation > div:nth-child(1) > div:nth-child(1) > p {
+        color: white;
+    }
+
+    .calculation > div:nth-child(1) > div:nth-child(1) > h2 {
+        color: white;
+    }
+
+    .calculation > div > div:nth-child(3) {
+        width: 100%;
+        height: 56%;
+        position: absolute;
+        z-index: 1;
+        background: black;
+        opacity: .3;
+    }
+
+    #footer_forma_2>div:nth-child(3) {
+        display: none;
+    }
+
+    #footer_forma_2 {
+        height: 60%;
+    }
+
+    #footer_forma_2>div:nth-child(1) {
+        height: 51%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #user_name_val_2, #user_phone_val_2 {
+        border: 0;
+        border-bottom: 2px solid grey;
+        width: 100%;
+        height: 3em;
+        margin: 0 auto;
+        background: white;
+        color: black !important;
+        opacity: 0.9;
+    }
+
+    .calculation>div:nth-child(2) {
+        margin-bottom: 0;
+        height: 38%;
+    }
+
+    #footer_forma_2>div:nth-child(2) {
+        margin-top: 4%;
+        text-align: center;
+    }
+
+    .our_autopark>div:nth-child(1) {
+        margin-bottom: 0;
+    }
+
+    .our_autopark>div:nth-child(1)>h2 {
+        font-size: 7vw;
+        margin-top: 7vh;
+        text-align: center;
+    }
+
+    .our_autopark>div:nth-child(1)>p {
+        /* font-size: 4vw; */
+        width: 90%;
+        text-align: center;
+        padding-bottom: 7vh;
+    }
+
+    .our_autopark>div:nth-child(1) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .carousel-item p {
+        margin: 0 auto;
+        width: 90%;
+        padding-bottom: 0;
+        margin-bottom: 3em;
+    }
+
+    .carousel-item h2 {
+        text-align: center;
+        margin: 0 auto;
+        width: 90%;
+        padding-top: 7vh;
+    }
+
+    .carousel-control-next.
+    .carousel-control-prev {
+        top: 107% !important;
+    }
+
+    .block-1 > h3 {
+        padding-bottom: 74%;
+    }
+
+    .arrow-left-car, .arrow-right-car {
+        top: 36%;
+    }
+
+    #carouselExampleIndicators3 img {
+        /* height: 27vh; */
+    }
+
+    #rulers-png-mobile-1 {
+        display: none;
+    }
+
+    #rulers-png-mobile-2 {
+        display: none;
+    }
+
+    /* --------------------------------------------------- */
+    .swipe-desktop {
+        display: none;
+    }
+
+    .swipe-mobile {
+        display: block;
+    }
+
+    .swipe-mobile>div>div:nth-child(1)>h2 {
+        font-size: 6vw;
+        font-weight: bold;
+    }
+
+    .swipe-mobile>div>div:nth-child(1)>hr {
+        margin-left: 0;
+    }
+
+    .swipe-mobile>div>div:nth-child(1)>p {
+        font-size: 4vw;
+    }
+
+    .swipe-mobile>div>div:nth-child(1)>button {
+        background: #03a9f4;
+        border: 2px solid transparent;
+        font-size: 5vw;
+        margin-top: 4%;
+        margin-bottom: 4%;
+        transition: color .5s, background .5s, border .5s;
+    }
+
+    .swipe-mobile>div>div:nth-child(1)>button:hover {
+        color: #03a9f4;
+        border: 2px solid #03a9f4;
+        background: white;
+    }
+
+    #opacity-text-1,
+    #opacity-text-2,
+    #opacity-text-3 {
+        opacity: 0;
+        transition: opacity 1s ease;
+    }
+
+    #opacity-text-1>p,
+    #opacity-text-2>p,
+    #opacity-text-3>p {
+        font-size: 4vw;
+        padding-top: 3%;
+    }
+
+    .swipe-mobile-block-2,
+    .swipe-mobile-block-3,
+    .swipe-mobile-block-4 {
+        position: relative;
+        overflow: hidden;
+        height: 60%;
+        margin-bottom: 5%;
+    }
+
+    .swipe-img,
+    .swipe-img2,
+    .swipe-img3 {
+        position: absolute;
+        top: 0;
+        background: grey;
+        height: 100%;
+        width: 100%;
+        transition: top 1s ease;
+    }
+
+    #swipe-btn-close-1,
+    #swipe-btn-close-2,
+    #swipe-btn-close-3 {
+        display: none;
+        color: #03a9f4;
+        font-size: 13vw;
+        cursor: pointer;
+        text-align: right;
+    }
+
+    .our_autopark>div:nth-child(2)>div:nth-child(1) {
+        width: 100%;
+    }
+
+    .autopark {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .slider-controls {
+        width: 100%;
+    }
+
+    .slider-controls>div:nth-child(1),
+    .slider-controls>div:nth-child(2),
+    .slider-controls>div:nth-child(3),
+    .slider-controls>div:nth-child(4) {
+        font-family: 'Gotham Pro';
+        color: black;
+        font-size: 4vw;
+        font-weight: bold;
+        display: flex;
+        flex-direction: row;
+        /* width: 24%; */
+        cursor: pointer;
+        transition: color 0.5s;
+        flex: 1;
+    }
+
+    .slider-controls>div:nth-child(1)>p,
+    .slider-controls>div:nth-child(2)>p,
+    .slider-controls>div:nth-child(3)>p,
+    .slider-controls>div:nth-child(4)>p {
+        font-size: 6vw;
+        height: 2%;
+        margin-top: 1em;
+        padding-left: 8%;
+    }
+
+    .slider-controls > div:nth-child(1) > h3,
+    .slider-controls > div:nth-child(2) > h3,
+    .slider-controls > div:nth-child(3) > h3,
+    .slider-controls > div:nth-child(4) > h3 {
+        font-size: 12vw;
+        font-weight: bold;
+    }
+
+    #carouselExampleIndicators3 {
+        width: 100%;
+        height: 30em !important;
+        margin-bottom: 11%;
+        margin-top: 5em;
+    }
+
+    .rulers-png-mobile {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .rulers-png {
+        display: block;
+    }
+
+    .rulers-png-mobile > img:nth-child(1) {
+        width: 101px;
+        height: 60px;
+        transition: opacity 0.5s;
+    }
+
+    .rulers-png-mobile > img:nth-child(2) {
+        width: 101px;
+        height: 60px;
+        transition: opacity 0.5s;
+    }
+
+    .autopark > p {
+        font-family: 'Gotham Pro';
+        /* font-size: 4vw; */
+    }
+
+    .autopark > h3 {
+        font-family: 'Gotham Pro';
+        /* font-size: 6vw; */
+    }
+
+    .autopark > h3 {
+        margin-bottom: 1rem;
+    }
+
+    .autopark > button {
+        background: #03a9f4;
+        color: white;
+        font-family: 'Gotham Pro';
+        width: 51%;
+        border: 0;
+        height: 33px;
+        letter-spacing: 0.1em;
+        transition: background .2s, color .2s, border .2s;
+        margin-bottom: 2em;
+    }
+
+    .calculation > div:nth-child(1) > h2 {
+        margin-top: 7vh;
+    }
+}
+
+/* md-устройства (больше или равно 768px) */
+@media screen and (min-width: 500px) and (max-width:991px) {
+
+    html {
+        font-size: .6em;
+    }
+
+    /* #prev-btn-1 > i, #next-btn-1 > i {
+        font-size: 16vw;
+    } */
+
+    /* .arrow-left-car, .arrow-right-car {
+        font-size: 16vw !important;
+    } */
+
+    /* CSS для: 768px <= ширины <= 991px */
+    .trans-header-bg>h2 {
+        font-size: 40px;
+    }
+
+    .block-1 > p {
+        position: absolute;
+        bottom: 0.1em;
+    }
+
+    .block-1 > p {
+        font-size: .9em;
+        line-height: 1em;
+    }
+
+    .slider-mini-bloks>div:nth-child(1) {
+
+    }
+
+    .slider-mini-bloks {
+
+    }
+
+    #_1>div:nth-child(2),
+    #_2>div:nth-child(2),
+    #_3>div:nth-child(2),
+    #_4>div:nth-child(2) {
+        margin-top: .4rem !important;
+        margin-bottom: 1rem;
+    }
+
+    .bg-lightgrey>div:nth-child(1)>h2 {
+        font-size: calc(4vw + 4px);
+    }
+
+    .bg-lightgrey>div:nth-child(1) {
+        margin-bottom: 4rem;
+    }
+
+    .block-1>h3 {
+        font-size: calc(1vw + 4px);
+    }
+
+    #carouselExampleIndicators>ol>li {
+        width: 1em !important;
+        height: 0.2em !important;
+        background: lightgrey !important;
+        transition: width .3s;
+    }
+
+    .calculation>div:nth-child(1)>h2 {
+
+    }
+
+    .calculation>div:nth-child(2) {
+        margin-bottom: 0em;
+    }
+
+    .our_autopark>div:nth-child(1)>h2 {
+        margin-top: 4rem;
+    }
+
+    .our_autopark>div:nth-child(1) {
+        margin-bottom: 5em;
+    }
+
+    .our_autopark>div:nth-child(2)>div:nth-child(1)>img {
+        width: 85%;
+    }
+
+    .rulers-png>img:nth-child(1),
+    .rulers-png>img:nth-child(2) {
+        width: 88px;
+        height: 51px;
+    }
+
+    .autopark>h3 {
+        margin-bottom: 2em;
+    }
+
+    .autopark>div {
+        margin-bottom: 3em;
+    }
+
+    .autopark>button {
+        width: 35%;
+    }
+
+    .navigation-bar-slider {
+        height: 59px;
+    }
+
+    .slider-controls>div:nth-child(1),
+    .slider-controls>div:nth-child(2),
+    .slider-controls>div:nth-child(3) {
+        width: 32%;
+    }
+
+    .slider-controls>div:nth-child(1)>p,
+    .slider-controls>div:nth-child(2)>p,
+    .slider-controls>div:nth-child(3)>p {
+        margin-top: .4em;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        top: 25% !important;
+    }
+
+    #main-forma-btn {
+        height: 4em;
+        width: 4em;
+        margin-top: 7vh;
+    }
+
+    #main-forma > div:nth-child(2) {
+        justify-content: center;
+    }
+
+    #main-forma {
+        background-color: white;
+        background-image: url(../img/background_world_map.png);
+        background-size: 132%;
+        position: absolute;
+        z-index: 2;
+        right: 0;
+        top: 24vh;
+        width: 46vw;
+        padding-top: 6%;
+        padding-bottom: 6%;
+    }
+}
+
+/* lg-устройства (больше или равно 992px) */
+@media screen and (min-width: 992px) and (max-width:1199px) {
+
+    /* CSS для: 992px <= ширины <= 1119px */
+    .trans-header-bg>h2 {
+        font-size: 45px;
+    }
+
+    html {
+        font-size: .7em;
+    }
+
+    .navigation-bar-slider>span {
+        font-size: 21px !important;
+    }
+
+    .forma_btn_2 {
+        font-size: 1.5em !important;
+    }
+
+    .rulers-png>img:nth-child(1) {
+        width: 92px;
+        height: 55px;
+    }
+
+    .rulers-png>img:nth-child(2) {
+        width: 92px;
+        height: 55px;
+    }
+
+    .autopark>button {
+        width: 31%;
+    }
+
+    .autopark>p, .autopark>h3 {
+        margin-bottom: 1.5em;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        top: 25% !important;
+    }
+}
+
+/* xl-устройства (больше или равно 1200px) */
+@media screen and (min-width: 1200px) {
+
+    /* CSS для: ширины >= 1200px */
+    .navigation-bar-slider>span {
+        font-size: 1.7em;
+    }
+
+    .forma_btn_2 {
+        font-size: 2.4em;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        top: 25% !important;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .slider-controls > div:nth-child(1) > p, .slider-controls > div:nth-child(2) > p, .slider-controls > div:nth-child(3) > p {
+        margin-top: 8%;
+    }
+}

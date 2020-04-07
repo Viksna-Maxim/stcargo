@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /blog
+Allow: /
+
+User-agent: Yandex
+Disallow: /blog
+Allow: /
+
+Host: stkargo.ru
+Sitemap: http://stkargo.ru/sitemap.xml

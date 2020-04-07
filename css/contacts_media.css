@@ -1,0 +1,133 @@
+/* MEDIA QUERY STYLES */
+
+/* xs - устройства (до 575px) */
+/* CSS для ширины, которая меньше 575px (включительно) */
+@media screen and (max-width: 575px) {
+    /* CSS для: ширины <= 576px*/
+}
+
+/* sm-устройства (больше или равно 576px) */
+@media screen and (min-width: 324px) and (max-width:500px){
+    /* CSS для: 576px <= ширины <= 767px */
+
+    html {
+        font-size: .65em;
+    }
+
+    .map {
+        height: 72vh;
+    }
+
+    .contacts > div:nth-child(1) > img {
+        position: absolute;
+        left: calc(2vw - 296px);
+        height: 100% !important
+    }
+
+    .contacts {
+        height: 60%;
+    }
+
+    .contacts > div:nth-child(2) {
+        position: absolute;
+        top: 0;
+        height: 60% !important;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .contacts > div:nth-child(2) > h1 {
+        padding-right: 5%;
+    }
+
+    .maps > div:nth-child(1) > div:nth-child(1) {
+        padding-top: 7vh;
+    }
+
+    .maps  > div:nth-child(1) > div:nth-child(1) > h2 {
+        /* font-size: 7vw; */
+    }
+
+    .maps > div:nth-child(2) {
+        height: 80%;
+    }
+
+    .maps-info {
+        padding-left: 0em;
+        padding-top: 2em;
+        /* font-size: calc(1vw + 9px); */
+    }
+
+    .maps > div:nth-child(1) {
+        height: 57%;
+    }
+
+    .maps > div:nth-child(2) {
+        width: 100%;
+        padding: 0;
+        padding-bottom: 11%;
+    }
+
+    .contacts > div:nth-child(2) {
+        width: 100%;
+        left: 0;
+    }
+
+    .bg-lightgrey {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+/* md-устройства (больше или равно 768px) */
+@media screen and (min-width: 501px) and (max-width:991px){
+    /* CSS для: 768px <= ширины <= 991px */
+
+    .contacts > div:nth-child(2) > h2 {
+
+    }
+
+    html {
+        font-size: .6em;
+    }
+
+    .contacts > div:nth-child(1) > img {
+        left: calc(-6vw - 134px);
+    }
+
+    .maps > div:nth-child(1) > div:nth-child(1) > h2 {
+
+    }
+
+    .maps-info {
+        padding-left: 0em;
+    }
+
+    .maps > div:nth-child(1) > div:nth-child(1) {
+        padding-top: 2em;
+    }
+}
+
+/* lg-устройства (больше или равно 992px) */
+@media screen and (min-width: 992px) and (max-width:1199px){
+    /* CSS для: 992px <= ширины <= 1119px */
+
+    html {
+        font-size: .7em;
+    }
+
+    .contacts > div:nth-child(1) > img {
+        left: calc(10vw - 296px);
+    }
+
+    .maps-info {
+        padding-left: 0em;
+
+    }
+}
+
+/* xl-устройства (больше или равно 1200px) */
+@media screen and (min-width: 1200px) {
+    /* CSS для: ширины >= 1200px */
+}

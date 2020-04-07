@@ -1,0 +1,199 @@
+
+@media screen and (min-width: 324px) and (max-width:500px) {
+    html {
+        font-size: .65em;
+    }
+
+    #open-video {
+        width: 7em;
+        height: 3.5em;
+        font-size: 1em;
+    }
+
+    .logistic-company>div:nth-child(2) > div {
+        display: none;
+    }
+
+    .logistic-company>div:nth-child(2) {
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        height: 30%;
+        right: 0;
+        bottom: 0;
+    }
+
+    .logistic-company>div:nth-child(1)>div:nth-child(1) {
+        height: 100%;
+    }
+
+    .main-text {
+        position: absolute;
+        z-index: 2;
+        top: 26%;
+        left: 16%;
+    }
+
+    .main-text>div>div>p:nth-child(2) {
+        font-size: 2.8vw;
+        padding-left: 1rem;
+    }
+
+    .logistic-company {
+        height: 100%;
+    }
+
+    #cargoVideo {
+        height: 100% !important;
+        width: 140% !important;
+    }
+
+    #main-forma {
+        background-color: white;
+        background-image: url(../img/background_world_map.png);
+        background-size: 135%;
+        position: static;
+        width: 100%;
+        padding-top: 7%;
+        padding-bottom: 9%;
+    }
+
+    #main-forma>div:nth-child(2) {
+        height: 20%;
+    }
+
+    #main-forma>div:nth-child(2)>div:nth-child(1) {
+        height: 100%;
+    }
+
+    #main-forma-btn {
+        background: #4d4d4d;
+        border: 2px solid transparent;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        margin-top: 5em;
+        margin-left: 10vw;
+        transition: transform 1s, border 1s, background 1s;
+    }
+
+    #main-forma-btn>i {
+        font-size: 2em;
+    }
+
+    #main-forma>div:nth-child(2)>div:nth-child(1)>input:nth-child(1) {
+        font-size: 1.5em;
+        height: 2em;
+    }
+
+    #main-forma>div:nth-child(2)>div:nth-child(1)>input:nth-child(2) {
+        font-size: 1.5em;
+        height: 2em;
+    }
+
+    #main-forma>div:nth-child(2)>div:nth-child(1) {
+        margin-left: 15%;
+    }
+
+    .moscow, .info, .info2 {
+        padding-left: 1rem;
+    }
+
+    .moscow > p, .info > p, .info2 > p {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .navigation-mobile > img {
+        position: absolute;
+        right: 36%;
+        width: 26%;
+        object-fit: contain;
+        z-index: 2;
+        max-height: 77%;
+        top: .6vh;
+    }
+
+    .navigation-mobile > a {
+        position: fixed;
+        top: 4%;
+        color: white;
+        right: 31%;
+        font-size: 1.6em;
+        z-index: 2;
+    }
+
+    ol, ul {
+        padding-left: 2rem;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width:991px) {
+    html {
+        font-size: .6em;
+    }
+
+    .navigation-mobile > a {
+        position: fixed;
+        top: 8%;
+        color: white;
+        right: 40%;
+        font-size: 1.6em;
+        z-index: 2;
+    }
+
+    .navigation-mobile > img {
+        position: absolute;
+        right: 42%;
+        width: 17%;
+        object-fit: contain;
+        z-index: 2;
+        max-height: 77%;
+        top: -1vh;
+        height: 4em;
+    }
+
+    .main-text>h1 {
+        font-size: 2em;
+    }
+
+    .moscow {
+        padding-top: 4rem;
+        padding-left: 6rem;
+        overflow: hidden;
+    }
+
+    #main-forma-btn {
+        height: 4em;
+        width: 4em;
+        margin-top: 7vh;
+    }
+
+    #main-forma > div:nth-child(2) {
+        justify-content: center;
+    }
+
+    #main-forma {
+        background-color: white;
+        background-image: url(../img/background_world_map.png);
+        background-size: 132%;
+        position: absolute;
+        z-index: 2;
+        right: 0;
+        top: 24vh;
+        width: 46vw;
+        padding-top: 6%;
+        padding-bottom: 6%;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width:1199px) {
+    html {
+        font-size: .7em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+}

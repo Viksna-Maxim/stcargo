@@ -1,0 +1,238 @@
+/* MEDIA QUERY STYLES */
+
+/* xs - устройства (до 575px) */
+/* CSS для ширины, которая меньше 575px (включительно) */
+@media screen and (max-width: 575px) {
+    /* CSS для: ширины <= 576px*/
+}
+
+/* sm-устройства (больше или равно 576px) */
+@media screen and (min-width: 324px) and (max-width:500px) {
+    /* CSS для: 576px <= ширины <= 767px */
+
+    html {
+        font-size: .65em;
+    }
+
+    #blog_first_picture,
+    #blog_first_picture2,
+    #blog_first_picture3 {
+        width: 100%;
+    }
+
+    #blog_first_picture > div > img,
+    #blog_first_picture2 > div > img,
+    #blog_first_picture3 > div > img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #blog_first_picture > div,
+    #blog_first_picture2 > div,
+    #blog_first_picture3 > div {
+        height: 41%;
+    }
+
+    .blog__company-h-2 {
+        padding-bottom: 0rem;
+        width: 100%;
+    }
+
+    #blog_first_text,
+    #blog_first_text2,
+    #blog_first_text3 {
+        width: 100%;
+    }
+
+    .swipe-desktop > div {
+        margin-top: 3em;
+        margin-bottom: 5em;
+    }
+
+    .blog>div:nth-child(1)>img {
+        position: absolute;
+        left: calc(2vw - 296px);
+        height: 100% !important;
+    }
+
+    .blog>div:nth-child(2) {
+        position: absolute;
+        top: 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 60% !important;
+    }
+
+    .blog > div:nth-child(2) > h1 {
+        font-size: 3em;
+        padding-right: 14%;
+    }
+
+    .blog {
+        height: 60%;
+    }
+
+    .blog__company > div:nth-child(1) > h2 {
+        /* font-size: 7vw; */
+        text-align: center;
+    }
+
+    .blog__company-text-h>p {
+        /* font-size: 4vw; */
+        width: 90%;
+        text-align: center;
+    }
+
+    .blog__company-text-h>p {
+        padding-bottom: 7vh;
+    }
+
+    .blog__company-text-h {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog>div:nth-child(2) {
+        width: 100%;
+        left: 0;
+    }
+
+    .blog__company-text-h>h2 {
+        padding-top: 7vh;
+    }
+
+    /* --------------------------------------------------- */
+
+    /* .swipe-desktop {
+    display: none;
+    } */
+
+    .swipe-mobile {
+        display: block;
+    }
+
+    .swipe-mobile > div > div:nth-child(1) > h2 {
+        font-size: 6vw;
+        font-weight: bold;
+    }
+
+    .swipe-mobile > div > div:nth-child(1) > hr {
+        margin-left: 0;
+    }
+
+    .swipe-mobile > div > div:nth-child(1) > p {
+        font-size: 4vw;
+    }
+
+    .swipe-mobile > div > div:nth-child(1) > button {
+        background: #03a9f4;
+        border: 2px solid transparent;
+        font-size: 5vw;
+        margin-top: 4%;
+        margin-bottom: 4%;
+        transition: color .5s, background .5s, border .5s;
+    }
+
+    .swipe-mobile > div > div:nth-child(1) > button:hover {
+        color: #03a9f4;
+        border: 2px solid #03a9f4;
+        background: white;
+    }
+
+    #opacity-text-1,
+    #opacity-text-2,
+    #opacity-text-3 {
+        opacity: 0;
+        transition: opacity 1s ease;
+    }
+
+    #opacity-text-1 > p,
+    #opacity-text-2 > p,
+    #opacity-text-3 > p {
+        font-size: 4vw;
+        padding-top: 3%;
+    }
+
+    .swipe-mobile-block-2,
+    .swipe-mobile-block-3,
+    .swipe-mobile-block-4 {
+        position: relative;
+        overflow: hidden;
+        height: 60%;
+        margin-bottom: 5%;
+    }
+
+    .swipe-img,
+    .swipe-img2,
+    .swipe-img3 {
+        position: absolute;
+        top: 0;
+        background: grey;
+        height: 100%;
+        width: 100%;
+        transition: top 1s ease;
+    }
+
+    #swipe-btn-close-1,
+    #swipe-btn-close-2,
+    #swipe-btn-close-3 {
+        display: none;
+        color: #03a9f4;
+        font-size: 13vw;
+        cursor: pointer;
+        text-align: right;
+    }
+}
+
+/* md-устройства (больше или равно 768px) */
+@media screen and (min-width: 501px) and (max-width:991px) {
+    /* CSS для: 768px <= ширины <= 991px */
+
+    html {
+        font-size: .6em;
+    }
+
+    .blog>div:nth-child(1)>img {
+        position: absolute;
+        left: calc(-6vw - 134px);
+        height: 100vh;
+    }
+
+    .blog__company-h-2>p {
+        line-height: 1.7em;
+        font-size: 12px;
+    }
+
+    .blog__company-h-3 > p {
+        line-height: 1.7em !important;
+        font-size: 12px !important;
+    }
+}
+
+/* lg-устройства (больше или равно 992px) */
+@media screen and (min-width: 992px) and (max-width:1199px) {
+    /* CSS для: 992px <= ширины <= 1119px */
+    /* .fs-16-calc {
+    font-size: calc(.9vw + 7px);
+    } */
+
+    html {
+        font-size: .7em;
+    }
+
+    .blog>div:nth-child(1)>img {
+        left: calc(10vw - 296px);
+    }
+
+    /* .blog__company-text-h > p {
+    font-size: calc(.9vw + 7px);
+    } */
+}
+
+/* xl-устройства (больше или равно 1200px) */
+@media screen and (min-width: 1200px) {
+    /* CSS для: ширины >= 1200px */
+}

@@ -1,0 +1,572 @@
+/* MEDIA QUERY STYLES */
+/* xs - устройства (до 575px) */
+/* CSS для ширины, которая меньше 575px (включительно) */
+@media screen and (max-width: 575px) {
+    /* CSS для: ширины <= 576px*/
+}
+
+/* sm-устройства (больше или равно 576px) */
+@media screen and (min-width: 576px) and (max-width:500px) {
+
+    /* CSS для: 576px <= ширины <= 767px */
+    .navigation-main-noscroll {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 324px) and (max-width:500px) {
+
+    /* CSS для: 576px <= ширины <= 767px */
+
+    .carousel-overlay-text-block {
+        position: absolute;
+        z-index: 4;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    html {
+        font-size: .65em;
+    }
+
+    .navigation-main-noscroll {
+        display: none !important;
+    }
+
+    .logistic-company>div:nth-child(2)>div {
+        display: none;
+    }
+
+    .main-text {
+        position: absolute;
+        z-index: 2;
+        top: 26%;
+        left: 16%;
+    }
+
+    /* #open-video {
+    width: 20vw;
+    height: 5vh;
+    font-size: 4vw;
+    } */
+    .logistic-company>div:nth-child(2) {
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        height: 30%;
+        right: 0;
+        bottom: 0;
+        display: none;
+    }
+
+    #main-forma {
+        background-color: white;
+        background-image: url(../img/background_world_map.png);
+        background-size: 135%;
+        position: static;
+        width: 100%;
+        padding-top: 7%;
+        padding-bottom: 9%;
+    }
+
+    #main-forma>div:nth-child(2) {
+        height: 20%;
+    }
+
+    #main-forma>div:nth-child(2)>div:nth-child(1) {
+        height: 100%;
+    }
+
+    #main-forma-btn {
+        background: #4d4d4d;
+        border: 2px solid transparent;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        margin-top: 5em;
+        margin-left: 10vw;
+        transition: transform 1s, border 1s, background 1s;
+    }
+
+    #main-forma-btn>i {
+        font-size: 2em;
+    }
+
+    #main-forma>div:nth-child(2)>div:nth-child(1)>input:nth-child(1) {
+        font-size: 1.5em;
+        height: 2em;
+    }
+
+    #main-forma>div:nth-child(2)>div:nth-child(1)>input:nth-child(2) {
+        font-size: 1.5em;
+        height: 2em;
+    }
+
+    #main-forma>div:nth-child(2)>div:nth-child(1) {
+        margin-left: 15%;
+    }
+
+    /* #main-forma>div:nth-child(1)>h3 {
+    font-size: calc(4vw + 3px);
+    } */
+    /* #main-forma>div:nth-child(1)>h5 {
+    font-size: calc(.8vw + 6px);
+    } */
+    /* .main-text>div>div>h5:nth-child(1) {
+    font-size: 2.3vw;
+    padding-left: 1rem;
+    } */
+    .main-text>div>div>p:nth-child(2) {
+        font-size: 2.8vw;
+        padding-left: 1rem;
+    }
+
+    .wha-we-do>div:nth-child(1)>div:nth-child(1)>div {
+        display: none;
+    }
+
+    .wha-we-do>div:nth-child(1)>div:nth-child(2) {
+        width: 100%;
+        padding-bottom: 3em;
+    }
+
+    .wha-we-do>div:nth-child(1)>div:nth-child(2)>h1 {
+        /* font-size: 7vw; */
+        margin-top: 7vh;
+        text-align: left;
+    }
+
+    .wha-we-do>div:nth-child(1)>div:nth-child(2)>p {
+        /* font-size: 3.7vw; */
+        width: 90%;
+        margin-bottom: 11%;
+        text-align: left;
+    }
+
+    .wha-we-do>div:nth-child(1)>div:nth-child(2)>a {
+        background: #03a9f4;
+        color: white;
+        font-size: 4vw;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: .1em;
+        padding-bottom: 0.3em;
+        transition: color .3s, background .3s, border .3s;
+    }
+
+    .navigation {
+        display: none !important;
+    }
+
+    /* .wha-we-do-icons>div:nth-child(1)>img, .wha-we-do-icons>div:nth-child(3)>img {
+    width: 11.6vw;
+    height: 6.5vh;
+    } */
+    /* .wha-we-do-icons>div:nth-child(2)>img {
+    width: 14.8vw;
+    height: 5.28vh;
+    } */
+    .wha-we-do-icons>div:nth-child(1)>h3, .wha-we-do-icons>div:nth-child(2)>h3, .wha-we-do-icons>div:nth-child(3)>h3 {
+        /* font-size: 4.6vw; */
+        padding-top: 1.2rem;
+        padding-bottom: .5rem;
+    }
+
+    .wha-we-do-icons>div:nth-child(1)>p, .wha-we-do-icons>div:nth-child(2)>p, .wha-we-do-icons>div:nth-child(3)>p {
+        text-align: center;
+        width: 72%;
+        /* line-height: 1.4em; */
+        margin: 0 auto;
+        /* font-size: 3.4vw; */
+        padding-bottom: 11%;
+    }
+
+    .wha-we-do-icons {
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+    }
+
+    .carousel-overlay-item-block {
+        display: none;
+    }
+
+    #carouselSlidesOnly {
+        overflow: hidden;
+        height: 100%;
+    }
+
+    #arrow-control {
+        display: block;
+        position: absolute;
+        top: 45%;
+        width: 100%;
+    }
+
+    #arrow-control>i:nth-child(1) {
+        font-size: 3em;
+        color: white;
+        position: absolute;
+        left: 0;
+        cursor: pointer;
+    }
+
+    #arrow-control>i:nth-child(2) {
+        font-size: 3em;
+        color: white;
+        position: absolute;
+        right: 0;
+        cursor: pointer;
+    }
+
+    .carousel-overlay-text-block>h1, .carousel-overlay-text-block>h3, .carousel-overlay-text-block>p {
+        padding-left: 14vw;
+    }
+
+    #popup-p {
+        width: 90%;
+        padding-left: 2rem;
+    }
+
+    .carousel-overlay-text-block>h1 {
+        padding-top: 7vh;
+        /* font-size: 7vw; */
+    }
+
+    .carousel-overlay-text-block>h3 {
+        /* font-size: 19px; */
+        padding-bottom: .1rem;
+    }
+
+    .carousel-overlay-text-block>p {
+        /* font-size: 4vw; */
+        width: 85vw;
+        /* line-height: 1.5em; */
+    }
+
+    .carousel-overlay-text-block>.hr_blue {
+        background: #03a9f4;
+        height: 3px;
+        width: 14%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+        margin-left: 14vw;
+    }
+
+    .company-in-digital>div:nth-child(1)>h1 {
+        padding-top: 7vh;
+    }
+
+    .company-in-digital>div:nth-child(1)>p {
+        /* font-size: 4vw; */
+        width: 90%;
+        line-height: 1.5em;
+        margin: 0 auto;
+    }
+
+    .company-in-digital>div:nth-child(2) {
+        /* background: url(../img/MapMain.png); */
+        /* background-size: 123%; */
+        /* background-position: center; */
+        height: 48% !important;
+        background-repeat: no-repeat;
+        margin-top: 1rem;
+    }
+
+    .circle4 {
+        height: 2.5em;
+        width: 2.5em;
+        left: 44vw;
+        top: 7vw;
+        font-size: 6vw;
+    }
+
+    .circle3 {
+        height: 2.5em;
+        width: 2.5em;
+        left: 11vw;
+        top: 11vw;
+        font-size: 6vw;
+    }
+
+    .circle5 {
+        height: 3.5em;
+        width: 3.5em;
+        left: 73vw;
+        top: 1vw;
+        font-size: 4vw;
+    }
+
+    .circle6 {
+        height: 2.5em;
+        width: 2.5em;
+        left: 92%;
+        top: 64%;
+    }
+
+    .circle1 {
+        height: 2.5vh;
+        width: 4.2vw;
+        left: 6%;
+        top: 39%;
+    }
+
+    .circle2 {
+        height: 1.2vh;
+        width: 2.4vw;
+        top: 41%;
+        left: 8%;
+    }
+
+    #company-in-digital-text-1 {
+        position: absolute;
+        top: 30vw;
+        font-size: 1.3em;
+        left: 7vw;
+    }
+
+    #company-in-digital-text-2 {
+        position: absolute;
+        top: 24vw;
+        left: 38vw;
+        font-size: 1.3em;
+    }
+
+    #company-in-digital-text-3 {
+        position: absolute;
+        font-size: 1.3em;
+        left: 71vw;
+        top: 18vw;
+    }
+
+    #close-popup {
+        font-size: 4em;
+    }
+
+    #popup-h1 {
+        /* font-size: 7vw; */
+        padding-left: 2rem;
+        padding-top: 3rem;
+    }
+
+    #popup-h5 {
+        padding-left: 2rem;
+        padding-top: 0rem;
+        width: 90%;
+        /* font-size: 4vw; */
+    }
+
+    #popup-hr {
+        background: white;
+        height: 3px;
+        margin-left: 2rem;
+        width: 12%;
+    }
+
+    .wha-we-do>div:nth-child(1)>div:nth-child(2) {
+        text-align: center;
+    }
+
+    #cargoVideo {
+        height: 100% !important;
+        width: 140% !important;
+    }
+
+    .logistic-company>div:nth-child(1)>div:nth-child(1) {
+        height: 100%;
+    }
+
+    .logistic-company {
+        height: 100%;
+    }
+
+    #open-video {
+        width: 7em;
+        height: 3.5em;
+        font-size: 1em;
+    }
+}
+
+/* md-устройства (больше или равно 768px) */
+@media screen and (min-width: 501px) and (max-width:991px) {
+
+    /* CSS для: 768px <= ширины <= 991px */
+    #main-forma > div:nth-child(2) {
+        justify-content: center;
+    }
+
+    #company-in-digital-text-3 {
+        position: absolute;
+        font-size: 1.5em;
+        left: 77vw;
+        top: 24vw;
+    }
+
+    #company-in-digital-text-1 {
+        position: absolute;
+        top: 36vw;
+        font-size: 1.5em;
+        left: 15vw;
+    }
+
+    #company-in-digital-text-2 {
+        position: absolute;
+        top: 2vw;
+        left: 48vw;
+        font-size: 1.5em;
+    }
+
+    #main-forma {
+        background-color: white;
+        background-image: url(../img/background_world_map.png);
+        background-size: 132%;
+        position: absolute;
+        z-index: 2;
+        right: 0;
+        top: 24vh;
+        width: 46vw;
+        padding-top: 6%;
+        padding-bottom: 6%;
+    }
+
+    .wha-we-do-icons {
+        margin-top: 7%;
+        margin-bottom: 6%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .wha-we-do-icons>div {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    html {
+        font-size: .6em;
+    }
+
+    .navigation-main-noscroll {
+        padding-top: 0%;
+    }
+
+    .carousel-overlay-item-block {
+        margin-left: 14vw;
+        margin-top: 7%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #elem_hover_1 {
+        border-width: 3px;
+    }
+
+    #elem_hover_2, #elem_hover_3, #elem_hover_4 {
+        border: 3px solid transparent;
+    }
+
+    .company-in-digital>div:nth-child(1)>h1 {
+        padding-top: 6%;
+    }
+
+    .company-in-digital>div:nth-child(2) {
+        margin-top: 2%;
+    }
+
+    #popup-h1 {
+        padding-left: 6%;
+        padding-top: 8%;
+    }
+
+    #popup-h5 {
+        padding-left: 6%;
+        padding-top: 2%;
+        width: 76%;
+    }
+
+    #popup-hr {
+        height: 4px;
+        margin-left: 6%;
+        width: 6%;
+    }
+
+    #map {
+        height: 72%;
+    }
+
+    #main-forma-btn {
+        height: 4em;
+        width: 4em;
+        margin-top: 7vh;
+    }
+}
+
+/* lg-устройства (больше или равно 992px) */
+@media screen and (min-width: 992px) and (max-width:1199px) {
+
+    /* CSS для: 992px <= ширины <= 1119px */
+    html {
+        font-size: .7em;
+    }
+
+    #map {
+        height: 60%;
+    }
+
+    .wha-we-do-icons {
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+    }
+
+    .company-in-digital>div:nth-child(2) {
+        margin-top: 1rem;
+    }
+
+    .company-in-digital>div:nth-child(1)>h1 {
+        padding-top: 4rem;
+    }
+}
+
+/* xl-устройства (больше или равно 1200px) */
+@media screen and (min-width: 1200px) {
+    /* CSS для: ширины >= 1200px */
+}
+
+@media screen and (min-width: 1900px) {
+    .wha-we-do>div:nth-child(1)>div:nth-child(1)>div {
+        width: 48%;
+        height: 116%;
+    }
+
+    .carousel-overlay-text-block {
+        padding-top: 15em;
+    }
+
+    .wha-we-do>div:nth-child(1)>div:nth-child(2)>a {
+        font-size: 1em;
+    }
+
+    #company-in-digital-text-1 {
+        position: absolute;
+        top: 28vw;
+        font-size: 1.5em;
+        left: 15vw;
+    }
+
+    #company-in-digital-text-2 {
+        position: absolute;
+        top: 4vw;
+        left: 48.5vw;
+        font-size: 1.5em;
+    }
+
+    #company-in-digital-text-3 {
+        position: absolute;
+        font-size: 1.5em;
+        left: 73vw;
+        top: 15vw;
+    }
+}

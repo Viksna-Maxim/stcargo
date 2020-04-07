@@ -1,0 +1,155 @@
+/* MEDIA QUERY STYLES */
+
+/* xs - устройства (до 575px) */
+/* CSS для ширины, которая меньше 575px (включительно) */
+@media screen and (max-width: 575px) {
+    /* CSS для: ширины <= 576px*/
+
+    .footer > div > div:nth-child(1) > div:nth-child(1) {
+        width: 100%;
+    }
+}
+
+/* sm-устройства (больше или равно 576px) */
+@media screen and (min-width: 324px) and (max-width:500px){
+    /* CSS для: 576px <= ширины <= 767px */
+
+    .footer > div > div:nth-child(1) {
+        padding-bottom: 25%;
+    }
+
+    .footer > div > div:nth-child(1) > div:nth-child(3) {
+        width: 100%;
+    }
+
+    .footer-mobile {
+        display: block;
+        width: 100%;
+    }
+
+    .footer-desktop {
+        display: none;
+    }
+
+    .footer > div > div:nth-child(1) > div:nth-child(2) {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .forma {
+        width: 100%;
+    }
+
+    .forma>div:nth-child(1)>input {
+        width: 100%;
+    }
+
+    .forma>div:nth-child(2)>button {
+        margin-left: 32%;
+        margin-top: 25%;
+    }
+
+    .forma>div:nth-child(2)>button {
+        width: 5em;
+        height: 5em;
+    }
+
+    .forma>div:nth-child(1)>input {
+        font-size: 1.5em;
+        height: 2em;
+    }
+
+    .footer {
+    }
+
+    .footer-text>div {
+        display: table;
+        font-size: 4.5vw;
+        margin: 0 auto;
+    }
+
+    .footer-img {
+        height: 6em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-text-2>span {
+        padding-left: 0em;
+        font-size: 1.2em;
+    }
+
+    .footer-text-2 {
+        background: #141414;
+        height: 5%;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        line-height: 4em;
+    }
+
+    .footer>div {
+        position: relative;
+    }
+
+    .footer > div > div:nth-child(1) > div:nth-child(2) > h2 {
+        font-size: 8vw;
+        padding-top: 14%;
+        text-align: center;
+    }
+
+    .forma  > div:nth-child(1) {
+        width: 60%;
+        margin-left: 7%;
+    }
+
+    .first-footer-mobile {
+        display: none;
+    }
+
+    .second-footer-mobile {
+        display: block;
+    }
+}
+
+/* md-устройства (больше или равно 768px) */
+@media screen and (min-width: 501px) and (max-width:991px){
+    /* CSS для: 768px <= ширины <= 991px */
+
+    .footer > div >div:nth-child(1)>div:nth-child(2)>h2 {
+        font-size: 27px;
+        padding-bottom: 1rem !important;
+    }
+
+    #footer_forma {
+        width: 80%;
+    }
+
+    #footer_forma > div:nth-child(1) {
+        width: 100%;
+    }
+}
+
+/* lg-устройства (больше или равно 992px) */
+@media screen and (min-width: 992px) and (max-width:1199px){
+    /* CSS для: 992px <= ширины <= 1119px */
+
+    .footer > div >div:nth-child(1)>div:nth-child(2)>h2 {
+        font-size: 32px;
+        padding-bottom: 1rem !important;
+    }
+
+    #footer_forma > div:nth-child(1) {
+        width: 85%;
+    }
+
+    #footer_forma > div:nth-child(2) {
+        width: 15%;
+    }
+}
+
+/* xl-устройства (больше или равно 1200px) */
+@media screen and (min-width: 1200px) {
+    /* CSS для: ширины >= 1200px */
+}

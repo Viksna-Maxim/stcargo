@@ -1,0 +1,450 @@
+/* MEDIA QUERY STYLES */
+
+/* xs - устройства (до 575px) */
+/* CSS для ширины, которая меньше 575px (включительно) */
+@media screen and (max-width: 575px) {
+    /* CSS для: ширины <= 576px*/
+}
+
+/* sm-устройства (больше или равно 576px) */
+@media screen and (min-width: 324px) and (max-width:500px){
+    /* CSS для: 576px <= ширины <= 767px */
+
+    #open-video {
+        width: 7em;
+        height: 3.5em;
+        font-size: 1em;
+    }
+
+    #overlay-ctrl {
+        display: flex;
+    }
+
+    html {
+        font-size: .65em !important;
+    }
+
+    .storage > div:nth-child(1) > p {
+        font-size: 1.6em;
+    }
+
+    .storage > div:nth-child(1) > ul > li {
+        font-size: 1.6em;
+    }
+
+    .logistic-company>div:nth-child(2) > div {
+        display: none;
+    }
+
+    .logistic-company>div:nth-child(2) {
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        height: 30%;
+        right: 0;
+        bottom: 0;
+    }
+
+    .logistic-company>div:nth-child(1)>div:nth-child(1) {
+        height: 100%;
+    }
+
+    .main-text {
+        position: absolute;
+        z-index: 2;
+        top: 26%;
+        left: 16%;
+    }
+
+    .main-text>div>div>p:nth-child(2) {
+        font-size: 2.8vw;
+        padding-left: 1rem;
+    }
+
+    .logistic-company {
+        height: 100%;
+    }
+
+    #cargoVideo {
+        height: 100% !important;
+        width: 140% !important;
+    }
+
+    #main-forma {
+        background-color: white;
+        background-image: url(../img/background_world_map.png);
+        background-size: 135%;
+        position: static;
+        width: 100%;
+        padding-top: 7%;
+        padding-bottom: 9%;
+    }
+
+    #main-forma>div:nth-child(2) {
+        height: 20%;
+    }
+
+    #main-forma>div:nth-child(2)>div:nth-child(1) {
+        height: 100%;
+    }
+
+    #main-forma-btn {
+        background: #4d4d4d;
+        border: 2px solid transparent;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        margin-top: 5em;
+        margin-left: 10vw;
+        transition: transform 1s, border 1s, background 1s;
+    }
+
+    #main-forma-btn>i {
+        font-size: 2em;
+    }
+
+    #main-forma>div:nth-child(2)>div:nth-child(1)>input:nth-child(1) {
+        font-size: 1.5em;
+        height: 2em;
+    }
+
+    #main-forma>div:nth-child(2)>div:nth-child(1)>input:nth-child(2) {
+        font-size: 1.5em;
+        height: 2em;
+    }
+
+    #main-forma>div:nth-child(2)>div:nth-child(1) {
+        margin-left: 15%;
+    }
+
+
+    .ostrovok {
+        display: none;
+    }
+
+    #block-main-div {
+        display: block;
+        position: relative;
+    }
+
+    #panorama-open,
+    #panorama-close {
+        position: absolute;
+        top: 0.3em;
+        right: 0.3em;
+        z-index: 2;
+        font-size: 5em;
+        color: white;
+    }
+
+    #panorama-close {
+        display: none;
+    }
+    .storage-block ul {
+        padding-bottom: 4em;
+    }
+
+    .storag_bg > h2 {
+        font-size: 7vw;
+        text-align: center;
+        padding-top: 14%;
+    }
+
+    .storag_bg:nth-child(2) > div {
+        display: none;
+    }
+
+    .storag_bg2 {
+        display: block;
+        background: #03a9f4;
+        background-size: 290vw;
+        color: white;
+        width: 100%;
+    }
+
+    .storag_bg2 > h3 {
+        /* font-size: calc(0.5vw + 22px); */
+        line-height: 0.5em;
+        font-size: 2.5em;
+        color: white;
+    }
+
+    .storag_bg2 > h2 {
+        /* font-size: calc(5vw + 42px); */
+        font-size: 6em;
+        font-weight: bold;
+        color: white;
+    }
+
+    .storag_bg2 {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .storage {
+        margin-top: 7vh;
+        margin-bottom: 7vh;
+        /* height: 43vw; */
+    }
+
+    .collapse-block > h2 {
+        padding-top: 7vh;
+        padding-bottom: 7vh;
+    }
+
+
+    .storage > div:nth-child(1) > h2 {
+
+    }
+
+    .storage > div:nth-child(2) {
+        display: none;
+    }
+
+    .storage > div:nth-child(1) {
+        width: 100%;
+    }
+
+    .storage > div:nth-child(1) > h3 {
+        /* font-size: 6vw; */
+    }
+
+    .storage > div:nth-child(1) > p {
+        /* font-size: 4vw; */
+    }
+
+    .storage > div:nth-child(1) > h3 {
+        padding-bottom: 0.2rem;
+    }
+
+    table td {
+        font-size: 1.2em;
+    }
+
+    .storage-block {
+        /* height: 180%; */
+    }
+
+    #accordionExample button {
+        font-size: 2em !important;
+    }
+
+    .middle-text {
+        background: #D6D7DB;
+        /* background-size: 306%; */
+        height: 7em;
+        width: 100%;
+    }
+
+    .middle-text > h2 {
+        font-size: 3.5vw;
+    }
+
+    .collapse-block > h2 {
+
+        text-align: center;
+    }
+
+    .accordion {
+        width: 100% !important;
+    }
+
+    #accordionExample button {
+        /* font-size: 6vw !important; */
+        text-align: center !important;
+    }
+
+    .card-header {
+        height: 11vh !important;
+    }
+
+    ul {
+        padding-left: 0 !important;
+    }
+
+    .storag_bg  {
+        flex-direction: column;
+    }
+}
+
+/* md-устройства (больше или равно 768px) */
+@media screen and (min-width: 501px) and (max-width:991px){
+    /* CSS для: 768px <= ширины <= 991px */
+
+    #block-main-div {
+        display: block;
+        position: relative;
+    }
+
+    #panorama-open,
+    #panorama-close {
+        position: absolute;
+        top: 0.3em;
+        right: 0.3em;
+        z-index: 2;
+        font-size: 5em;
+        color: white;
+    }
+
+    #panorama-close {
+        display: none;
+    }
+
+    html {
+        font-size: .6em;
+    }
+
+    #main-forma-btn {
+        height: 4em;
+        width: 4em;
+        margin-top: 7vh;
+    }
+
+
+    #main-forma > div:nth-child(2) {
+        justify-content: center;
+    }
+
+    #main-forma {
+        background-color: white;
+        background-image: url(../img/background_world_map.png);
+        background-size: 132%;
+        position: absolute;
+        z-index: 2;
+        right: 0;
+        top: 24vh;
+        width: 46vw;
+        padding-top: 6%;
+        padding-bottom: 6%;
+    }
+
+    .main-text>h2 {
+
+    }
+
+    .storag_bg > h2 {
+        font-size: 40px;
+    }
+
+    .storag_bg > div:nth-child(2) > h2 {
+        font-size: calc(1vw + 116px);
+    }
+
+    .storag_bg > div:nth-child(2) > h3 {
+
+        font-weight: bold;
+        line-height: .5em;
+    }
+
+    .storage > div:nth-child(1) > h2 {
+
+    }
+
+    .middle-text {
+        height: 8em;
+    }
+
+    .collapse-block > h2 {
+        font-weight: bold;
+        /* font-size: 58px; */
+        padding-top: 1em;
+        padding-bottom: .5em;
+    }
+
+    .storage {
+        /* margin-top: 214px; */
+    }
+}
+
+/* lg-устройства (больше или равно 992px) */
+@media screen and (min-width: 992px) and (max-width:1199px){
+    /* CSS для: 992px <= ширины <= 1119px */
+
+    #block-main-div > i {
+        display: none !important;
+    }
+
+    html {
+        font-size: .7em;
+    }
+
+    .main-text>h2 {
+        font-size: calc(4vw + 10px);
+    }
+
+    .storag_bg > div:nth-child(2) > h3 {
+        line-height: 0.5em;
+    }
+
+    .storag_bg > h2 {
+        font-size: 45px;
+    }
+
+    .storage >  div:nth-child(1) > h2 {
+
+    }
+
+    .collapse-block > h2 {
+        /* font-size: 60px; */
+    }
+
+    .w-media {
+        width: 100% !important;
+    }
+
+    .middle-text {
+        height: 10em;
+    }
+
+    .storag_bg > div:nth-child(2) > h2 {
+
+    }
+}
+
+/* xl-устройства (больше или равно 1200px) */
+@media screen and (min-width: 1200px) and (max-width: 1279px) {
+    /* CSS для: ширины >= 1200px */
+    .storag_bg > div:nth-child(2) {
+        background: #D6D7DB;
+        width: 85%;
+        height: 53%;
+        z-index: 2;
+        bottom: -36%;
+        -webkit-box-shadow: 1px 6px 86px -15px rgba(0,0,0,0.75);
+        -moz-box-shadow: 1px 6px 86px -15px rgba(0,0,0,0.75);
+        box-shadow: 1px 6px 86px -15px rgba(0,0,0,0.75);
+    }
+
+    .storage {
+        margin-top: 25%;
+        margin-bottom: 3em;
+        width: 100%;
+    }
+
+    #block-main-div > i {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1900px) {
+    #block-main-div > i {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    /* CSS для: ширины >= 1200px */
+
+    table li {
+        font-size: .6em;
+    }
+
+    .storage > div:nth-child(2) {
+        height: 44em;
+    }
+
+    #panorama-open,
+    #panorama-close {
+        display: none;
+    }
+}
